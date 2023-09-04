@@ -105,8 +105,10 @@ here's an example (ignore <code> tag):
             'name' => 'suvro',
             'rows' => '10',
             'random_data' => [
+                ['email' => 'email1@email.com'],
+                ['email' => ''],
+                ['email' => ''],
                 ['email' => 'email2@email.com'],
-                ['email' => '<script>email3@email.com</script>'],
             ]
         ];
 
