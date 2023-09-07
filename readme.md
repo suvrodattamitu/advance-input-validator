@@ -2,8 +2,10 @@
 
 **here's an example**
 
+*
+
 ```php
-    *use DemoProject\App\Services\InputValidator;
+    use DemoProject\App\Services\InputValidator;
 
     try {
          $data = [
@@ -26,5 +28,7 @@
         wp_send_json_error([
             'errors' => json_decode($exception->getMessage(), true)
         ], 423);
-    }*
+    }
 ```
+
+*
