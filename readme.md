@@ -2,8 +2,6 @@
 
 **here's an example**
 
-*
-
 ```php
     use DemoProject\App\Services\InputValidator;
 
@@ -30,5 +28,3 @@
         ], 423);
     }
 ```
-
-*
